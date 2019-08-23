@@ -3,4 +3,4 @@ MAINTAINER "zhsir"
 ADD jar /data/webapps/
 WORKDIR /data/webapps/
 EXPOSE 8080
-ENTRYPOINT ["./run.sh,""]
+ENTRYPOINT ["./run.sh"]
