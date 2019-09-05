@@ -3,4 +3,4 @@ MAINTAINER "zhsir"
 ADD default /data/webapps/
 
 EXPOSE 8080
-ENTRYPOINT ["./run.sh"]
+CMD ["/root/run.sh", "run"]
