@@ -1,6 +1,6 @@
-FROM harbor.umsauto.cn/arm64/arm-jar-demo:latest
+FROM umsauto/java-jar-demo_arm64:latest
 MAINTAINER "zhsir"
 ADD default /data/webapps/
-ADD pom.xml /data/webapps/
+WORKDIR /data/webapps/
 EXPOSE 8080
-CMD ["/root/run.sh", "run"]
+ENTRYPOINT ["./run.sh"]
