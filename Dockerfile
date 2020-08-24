@@ -1,4 +1,4 @@
-FROM harbor.umsauto.cn/devops/jar-java-demo:latest
+FROM umsauto/java-jar-demo:latest
 MAINTAINER "zhsir"
 ADD default /data/webapps/
 WORKDIR /data/webapps/
